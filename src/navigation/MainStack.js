@@ -8,7 +8,7 @@ const Stack = createStackNavigator();
 
 const MainStack = () => {
     return (
-        <Stack.Navigator>
+        <Stack.Navigator initialRouteName='PersonalAccount'>
             <Stack.Screen name="Home" component={Home}
                 options={{ headerShown: false, tabBarVisible: false, }}
             />
